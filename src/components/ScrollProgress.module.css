@@ -1,0 +1,25 @@
+.container {
+  position: fixed;
+  top: 0;
+  right: 16px;
+  width: 8px;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  align-items: stretch;
+}
+
+.vine {
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to bottom, #8FBC8F, #4A7C59, #3A6B35);
+  border-radius: 2px;
+  transform-origin: top;
+  margin: 0 auto;
+}
+
+.leaf {
+  position: absolute;
+  right: -4px;
+  transform: translateY(-50%);
+}

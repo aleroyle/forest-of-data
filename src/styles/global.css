@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-story: "Lora", "Georgia", serif;
+  --font-technical: "Inter", system-ui, sans-serif;
+  --font-ui: "Nunito", sans-serif;
+  --color-cream: #fff8e7;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-story);
+  background: var(--color-cream);
+  color: #6b4e3d;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  overflow: hidden;
+}
